@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="הצטרפו לבטא הסגורה של QuietSocial לאנדרואיד בשני שלבים פשוטים.">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#f5f7f2">
+  <title>QuietSocial | הצטרפות לבטא הסגורה</title>
+  <style>:root{color-scheme:light dark;--bg:#f5f7f2;--paper:#fff;--ink:#213125;--muted:#576b5a;--border:#d9e4d8;--green:#376044;--green-text:#fff;--soft:#eaf1e8;--secondary:#edf3eb}
+@media(prefers-color-scheme:dark){:root{--bg:#121a15;--paper:#1c2820;--ink:#f1f6ef;--muted:#b4c8b7;--border:#384b3b;--green:#badbc0;--green-text:#16251a;--soft:#293c2d;--secondary:#293b2e}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+a{color:inherit}
+a:focus-visible{outline:3px solid var(--green);outline-offset:4px}
+.page{width:min(100% - 36px,660px);margin:0 auto;padding:30px 0 62px}
+.header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 54px}
+.brand{display:inline-flex;align-items:center;gap:11px;font-size:22px;letter-spacing:-.04em;font-weight:810;white-space:nowrap}
+.brand__mark{display:grid;place-items:center;width:42px;height:42px;background:var(--green);color:var(--green-text);border-radius:13px;font-size:23px;font-weight:810;letter-spacing:-.05em}
+.eyebrow{display:inline-block;border-radius:50px;padding:6px 13px;background:var(--soft);color:var(--green);font-size:12px;letter-spacing:.015em;font-weight:780}
+h1{font-size:clamp(35px,8vw,54px);line-height:1.12;letter-spacing:-.044em;margin:18px 0 18px;font-weight:780}
+.lead{font-size:18px;color:var(--muted);margin:0 0 33px;max-width:55ch}
+.steps{display:grid;gap:15px}
+.step{background:var(--paper);border:1px solid var(--border);padding:26px;border-radius:21px;box-shadow:0 5px 18px rgba(31,58,32,.035)}
+.step__heading{display:flex;gap:13px;align-items:center;margin:0;font-size:21px;letter-spacing:-.02em;line-height:1.34}
+.step__number{display:grid;place-items:center;flex:0 0 39px;height:39px;border-radius:12px;background:var(--soft);color:var(--green);font-size:17px;font-weight:800}
+.step__description{color:var(--muted);margin:13px 0 22px}
+.cta{display:block;min-height:52px;padding:14px 20px;border-radius:12px;background:var(--green);color:var(--green-text);font-weight:750;text-decoration:none;text-align:center;line-height:1.5;transition:filter .15s ease}
+.cta:hover{filter:brightness(1.08)}
+.cta--secondary{background:var(--soft);color:var(--green)}
+.small-note{font-size:13px;color:var(--muted);margin:13px 0 0}
+.help{margin-top:24px;border:1px solid var(--border);background:var(--secondary);border-radius:15px;padding:17px 19px;color:var(--muted);font-size:14px}
+.help strong{color:var(--ink)}
+.footer{margin-top:35px;border-top:1px solid var(--border);padding-top:17px;font-size:13px;color:var(--muted)}
+@media(max-width:480px){.page{width:min(100% - 30px,660px);padding-top:22px}.header{margin-bottom:42px}.step{padding:20px}.step__heading{font-size:19px}}</style>
+</head>
+<body>
+  <main class="page">
+    <header class="header">
+      <div class="brand"><span class="brand__mark" aria-hidden="true">Q</span><span lang="en" dir="ltr">QuietSocial</span></div>
+    </header>
+
+    <div class="eyebrow">בטא סגורה לאנדרואיד · ישראל</div>
+    <h1>מוכנים לקחת שליטה על זמן המסך?</h1>
+    <p class="lead">הצטרפו לבטא הסגורה של QuietSocial בשני שלבים פשוטים. אין צורך לשלוח לנו את כתובת האימייל שלכם.</p>
+
+    <div class="steps">
+      <section class="step" aria-labelledby="step-one">
+        <h2 class="step__heading" id="step-one"><span class="step__number" aria-hidden="true">1</span>מצטרפים לקבוצת הבטא</h2>
+        <p class="step__description">התחברו לחשבון Google שבו אתם משתמשים בחנות Play ובחרו באפשרות להצטרף לקבוצה.</p>
+        <a class="cta" href="https://groups.google.com/g/quietsocial-closed-beta-testers" target="_blank" rel="noopener noreferrer">הצטרפות לקבוצת הבטא</a>
+        <p class="small-note">לאחר ההצטרפות לקבוצה, חזרו לעמוד הזה והמשיכו לשלב השני.</p>
+      </section>
+
+      <section class="step" aria-labelledby="step-two">
+        <h2 class="step__heading" id="step-two"><span class="step__number" aria-hidden="true">2</span>נרשמים לבדיקה ומתקינים</h2>
+        <p class="step__description">פתחו את עמוד הבטא הרשמי ב-Google Play, אשרו את ההצטרפות לתוכנית הבדיקה ופעלו לפי ההוראות להתקנת האפליקציה.</p>
+        <a class="cta cta--secondary" href="https://play.google.com/apps/testing/com.quietsocial" target="_blank" rel="noopener noreferrer">מעבר להרשמה ב-Google Play</a>
+      </section>
+    </div>
+
+    <aside class="help"><strong>חשוב לדעת:</strong> יש להשתמש באותו חשבון Google בשני השלבים. אם Google Play מציג שהחשבון אינו זכאי, ודאו שהצטרפתם לקבוצה ונסו שוב לאחר שההרשאות יתעדכנו.</aside>
+    <footer class="footer">QuietSocial זמינה כרגע למשתמשי אנדרואיד בישראל במסגרת בטא סגורה. העמוד הזה אינו אוסף פרטים אישיים.</footer>
+  </main>
+</body>
+</html>
